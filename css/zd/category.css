@@ -232,3 +232,23 @@
 	margin: auto;
 	border-radius:10px;
 }
+.zd-content .content .bottom .imgbox:hover .font{
+	background:rgb(252,24,115);
+	position:absolute;left:-50px;top:0;width:210px;
+}
+.zd-content .content .bottom .imgbox:hover .zfxs{
+	display:block;
+}
+.zd-content .content .bottom .imgbox:hover .mask{
+	border-bottom: 40px solid rgb(252,24,115);
+	right: 60px;
+}
+.zd-content .content .bottom .imgbox:hover .liness{
+	left: 65px;
+}
+.zd-content .content .bottom .imgbox:hover .zfx{
+	left: 125px;
+}
+.zd-content .content .bottom .imgbox:hover .sjx{
+		display:none;
+}

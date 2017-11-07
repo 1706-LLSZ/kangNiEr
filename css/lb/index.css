@@ -1,0 +1,622 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.section{
+	width: 100%;
+	position: relative;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.profile{
+	width:100%;
+}
+.profile .title{
+	width: 180px;
+	height: 80px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	margin-top: 130px;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+}
+.profile .title h5{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
+.profile .title span{
+	font-size: 12px;
+	font-weight: lighter;
+	margin-left: 5px;
+}
+.profile .title .dashline{
+	width: 78px;
+	height: 1px;
+	border: 1px dashed #666;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 10px;
+}
+.profile .title .dot{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #666;
+	float: left;
+	margin: -1px 50px 0px 4px;
+}
+.profile .title .dis{
+	width: 100%;
+	height: 32px;
+}
+.profile .title .dis ul{
+	width: 100%;
+}
+.profile .title .dis ul li{
+	width: 25%;
+	height: 14px;
+	float: left;
+	width: 45px;
+	border-right: 1px solid #333;
+	box-sizing: border-box;
+	margin-top:10px;
+	position: relative;
+}
+.profile .title .dis ul li span{
+	display: block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	font-size: 22px; 
+	top: -10px;
+}
+.profile .title .bar{
+	width: 18px;
+	margin-left: 10px;
+	height: 4px;
+	background: #333;
+	float: left;
+}
+.profile .title .dasline{
+	margin-top:1px;
+	width: 110px;
+	border: 1px dashed #333;
+	float: left;
+}
+.profile .title .bdot{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #333;
+	float: left;
+}
+.profile .pro-list{
+	width: 100%;
+	float: left;
+}
+.profile .pro-list li a{
+	display: block;
+	text-decoration: none;
+	color: #666;
+}
+.profile .pro-list li{
+	width: 282px;
+	height: 458px;
+	margin-right: 24px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	color: #8A8A8A;
+	background: #F4F4F4;
+}
+.profile .pro-list li:last-child{
+	margin-right: 0;
+}
+.profile .pro-list li .img{
+	width: 100%;
+	height: 282px;
+	background:url(../../images/lb/s1-1.jpg);
+}
+.profile .pro-list li .img2{
+	background:url(../../images/lb/s1-2.jpg);
+}
+.profile .pro-list li .img3{
+	background:url(../../images/lb/s1-3.jpg);	
+}
+.profile .pro-list li .img4{
+	background:url(../../images/lb/s1-4.jpg);
+}
+.profile .pro-list li .cribe{
+	width: 100%;
+	height: 176px;
+	transition: all 1s;
+	background: #F4F4F4;
+}
+.profile .pro-list li .cribe:hover{
+	height: 240px;
+	margin-top: -64px;
+	background: #FFF43C;
+}
+.profile .pro-list li p{
+	height: 62px;
+	line-height: 62px;
+	font-size: 34px;
+	overflow: hidden;
+ 	text-overflow:ellipsis;  
+ 	white-space: nowrap;
+}
+.profile .pro-list li h4{
+	font-size: 20px;
+	overflow: hidden;
+ 	text-overflow:ellipsis;  
+ 	white-space: nowrap;
+}
+.profile .pro-list li .area{
+	display: block;
+	margin: 0 auto;
+	width: 226px;
+	font-size: 16px;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.big{
+	width:100%;
+	height: 1100px;
+	overflow: hidden;
+	margin-top: 200px;
+}
+.big .sec1{
+	height: 382px;
+	background-image: url(../../images/lb/tupian-1.jpg);
+	position: relative;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	padding-top: 225px;
+}
+.sec1 .text{
+	width: 334px;
+	height: 80px;
+	margin: 0 auto 80px;
+}
+.sec1 .text h1{
+	display: inline-block;
+	font-size: 30px;
+}
+.sec1 .text span{
+	font-size: 24px;
+}
+.sec1 .text p{
+	font-size: 12px;
+}
+.sec1 .lun{
+	width: 927px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.sec1 .lun li{
+	float: left;
+}
+.sec1 .lun .world{
+	width: 251px;
+	margin-right: 52px;
+	box-shadow: 20px 20px 30px  rgba(0, 0, 0, 0.3);
+	z-index: 3;
+}
+.sec1 .lun .world:last-child{
+	margin-right: 0;
+}
+.sec1 .lun .world .con{
+	width: 100%;
+	height: 196px;
+	padding-top: 50px;
+	text-align: center;
+	background:#FF3795;
+}
+.sec1 .lun .world .con h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+	overflow: hidden;
+ 	text-overflow:ellipsis;  
+ 	white-space: nowrap;
+}
+.sec1 .lun .world .con .cont{
+	font-size:12px;
+	width: 200px;
+	margin: auto;
+	line-height: 1.5;
+	font-weight: lighter;
+	margin-bottom: 40px;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.sec1 .lun .world .con .date{
+	font-size: 12px;
+	text-align:right;
+	width: 200px;
+	margin: 0 auto;
+}
+.sec1 .lun .world .cctv{
+	width: 100%;
+	height: 225px;
+	background:#fff;
+}
+.sec1 .lun .world .cctv img{
+	margin-top: 20px;
+	width: 100%;
+}
+.sec1 .lun .btn{
+	text-align:left;
+	padding-left: 20px;
+	width:231px;
+	z-index: -1;
+}
+.sec1 .lun .btn a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	line-height: 34px;
+	background: #FDDA36;
+	border-radius: 8px;
+	width: 103px;
+	font-size: 16px;
+	text-align: center;
+}
+.sec1 .wula{
+	text-align: center;
+	width: 100%;
+	color: #333;
+	font-size: 12px;
+}
+.sec1 .ldot{
+	width: 100px;
+	height: 20px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.sec1 .ldot li{
+	float: left;
+	margin-left: 10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #FFDC36;
+	cursor: pointer;
+}
+.sec1 .ldot li:first-child{
+	width: 25px;
+	background: #FF3795;
+}
+.sec1 .wula p{
+	color: #999;
+}
+
+.sec2{
+	overflow: hidden;
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+.sec2 .back{
+	width: 88%;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.sec2 .back .white{
+	height: 240px;
+}
+.sec2 .back .purple{
+	height: 445px;
+	background: #FF3795;
+}
+.sec2 .back .purple img{
+	position: absolute;
+	top: 82px;
+	left: 150px;
+}
+.sec2 .front{
+	position: absolute;
+	top: 400px;
+	right: 0;
+	width: 80%;
+}
+.sec2 .front .left{
+	width: 749px;
+	height: 630px;
+	float: left;
+}
+.sec2 .front .left .girl{
+	height: 500px;
+	background: #fff;
+}
+.sec2 .front .left .want{
+	width: 100%;
+	height: 81px;
+	padding-top: 34px;
+}
+.sec2 .front .left .want a{
+	display: block;
+	width: 160px;
+	height: 40px;
+	line-height:40px;
+	background:#FFDC36;
+	color:#333;
+	
+	text-align: center;
+	text-decoration: none;
+}
+.sec2 .front .middle{
+	height: 630px;
+	width: 539px;
+	background: #fff;
+	float: left;
+}
+.sec2 .front .middle .con{
+	height: 276px;
+	padding-top: 24px;
+}
+.sec2 .front .middle .con p{
+	display: block;
+	width: 360px;
+	margin-left: 60px;
+	font-size: 18px;
+	color: #E61F7F;
+}
+.sec2 .front .middle .con h2{
+	display: block;
+	width: 360px;
+	font-size: 30px;
+	color: #E61F7F;
+	margin-left: 60px;
+}
+.sec2 .front .middle .con .text{
+	display: block;
+	width: 360px;
+	font-size：14px;
+	margin-left: 60px;
+	color: #999;
+}
+.sec2 .front .middle .hand{
+	height: 330px;
+	background-image: url(../../images/lb/renwu-3.jpg);
+	background-repeat: no-repeat;
+}
+.sec2 .front .blank{
+	float:left;
+	height: 404px;
+	width: 222px;
+	padding-top: 226px;
+}
+.sec2 .front .blank .pink{
+	height: 185px;
+	width: 100%;
+	background: #FF3795;
+}
+.section .casebox{
+	width: 1200px;
+	margin: 20px auto;
+	position: relative;
+	height: 688px;
+	overflow: hidden;
+}
+.section .casebox .case,.case1{
+	width: 100%;
+	height: 688px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.section .case .leftside{
+	width: 500px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.section .case .leftside img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.section .case .rightside{
+	width: 700px;
+	height: 100%;
+	float: left;
+	padding-left: 44px;
+	padding-top: 140px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.section .case .rightside .top{
+	height: 78px;
+	margin-bottom: 58px;
+	font-size: 0;
+}
+.section .case .rightside .top h3{
+	font-size: 24px;
+	text-align: left;
+	margin-bottom: 26px;
+}
+.section .case .rightside .top p{
+	font-size: 12px;
+	overflow: hidden;
+ 	text-overflow:ellipsis;  
+ 	white-space: nowrap;
+}
+.section .case .rightside .bar{
+	height: 7px;
+	width: 27px;
+	background-color: #E93A72;
+	float: left;
+	margin-top: -3px;
+}
+.section .case .rightside .line{
+	height: 2px;
+	width: 555px;
+	background-color: #D1D1D1;
+	margin-bottom: 22px;
+}
+.section .case .rightside .con{
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	margin-bottom: 28px;
+	color: #333;
+	width: 525px;	
+}
+.section .case .rightside .more{
+	width: 525px;
+	
+	margin-top: 100px;
+}
+.section .case .rightside .more a{
+	display: block;
+	float: right;
+	text-decoration: none;
+	width: 150px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	background: #FFDC36;
+	text-align: center;
+	color: #333;
+}
+.section .ldot{
+	width: 100px;
+	height: 20px;
+	margin: auto;
+}
+.section .ldot li{
+	float: left;
+	margin-left: 10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #FFDC36;
+	cursor: pointer;
+}
+.section .ldot li:first-child{
+	width: 25px;
+	background: #FF3795;
+}
+.section .casebox .case .ls{
+	width: 600px;
+}
+.section .casebox .case .rs{
+	width: 600px;
+}
+.section .casebox .rightside .top p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.section .casebox .rightside .con:nth-child(4){
+	color: #000;
+}
+.section .casebox .rightside .con:nth-child(5){
+	color: #999;
+}
+.section .casebox .rightside .more1{
+	margin-top: 0;
+}
+.section .casebox .rightside .more1 a{
+	float: left;
+
+}
+.section .casebox .leftside .imgbox{
+	width: 100%;
+	height: 60%;
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.section .casebox .leftside .imgbox li{
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.section .casebox .leftside .xdot{
+	width: 60px;
+	height: 20px;
+	float: right;
+	margin-top:8px;
+	margin-right: 22px;
+}
+.section .casebox .leftside .xdot li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: 12px;
+	background: #C7C7C7;
+	cursor: pointer;	
+}
+.section .casebox .leftside .btn{
+	width: 56px;
+	height: 28px;
+	float: right;
+	margin-right: 80px;
+}
+.section .casebox .leftside .btn .lbtn,.rbtn{
+	width: 50%;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 28px;
+	float: left;
+	cursor: pointer;
+}
+.section .casebox .leftside .btn .lbtn{
+	background: #000;
+}
+.section .casebox .leftside .btn .rbtn{
+	background: #FF3795;
+}
+.section .pot{
+	margin-top: 30px;
+	width: 1200px;
+	margin: auto;
+	height: 510px;
+}
+.section .pot li{
+	width: 335px;
+	height: 496px;
+	margin-right: 97px;
+	float: left;
+}
+.section .pot li:last-child{
+	margin-right: 0;
+}
+.section .pot li a{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.section .pot li .y-bar{
+	width: 266px;
+	height: 10px;
+	margin: auto;
+	background-color: #FFF43C;	
+}
+.sec3{
+	margin-bottom: 160px;
+}
