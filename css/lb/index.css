@@ -178,6 +178,8 @@
 .big .sec1{
 	height: 382px;
 	background-image: url(../../images/lb/tupian-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
 	text-align: center;
 	color: #fff;
