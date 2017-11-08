@@ -35,9 +35,7 @@
                 类名 如 .lb-banner  #lb-nav （一定要有后代保护）
   
 - js文件   如： 文件名  index.js  <br>
-	  错误 window.onload = function(){}  <br>
-	  正确 $(function(){ }) || window.addEventListener('load',function(){}) <br>
-	  js文件引用统一放置在body结束之前
+
 - image文件
   文件名 如：logo.png<br/>
   所有文件 统一放置到自己姓名简拼的文件夹下<br/> 如   images/lb/ logo.png<br/> 
