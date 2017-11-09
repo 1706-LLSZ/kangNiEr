@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="renderer" content="webkit"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/base.css"/>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/sb/header.css"/>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/sb/contact.css"/>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/footer.css"/>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/lb/index.css"/>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/swiper.min.css"/>
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}knr/fonts/ssb/iconfont.css"/>
+        <script src="{JS_PATH}knr/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{JS_PATH}knr/swiper.jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{JS_PATH}knr/ssb/header.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{JS_PATH}knr/lb/index.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+    <!-- 导航开始 -->
+    <div class="wk">
+        <header>
+            <img src="{IMG_PATH}knr/logo.png" />
+            <ul>
+                {pc:content action="category"}
+                <li><a href="{siteurl($siteid)}">首页</a>
+                </li>
+                 {loop $data $v}
+                    <li><a href="{$v[url]}">{$v[catname]}</a></li>
+                    {/loop}
+                {/pc}
+            </ul>
+            <div class="line">
+                <div class="cre"></div>
+            </div>
+        </header>
+    </div>
+    <!-- 导航结束 -->
+<script>
+    $(function(){
+        var now=0;
+        var nl=$('header .line .cre').css('left');
+        var nw=$('header .line .cre').css('width');
+        var a
+        $('header ul li').hover(function(){
+            $('header .line .cre').stop(true);
+            a=this.querySelector('a');
+            var n=$(this).index();
+            var w=$(this).innerWidth()+6;
+            var up=0;
+            for (var i=0;i<n;i++) {
+                up+=$('header ul li').eq(i).outerWidth();
+            }
+            $(a).css('color','#FC70B2');
+            $('header .line .cre').animate({'left':up+29+'px','width':w-32+'px'});
+        },function(){
+             a=this.querySelector('a');
+            $(a).css('color','#333');
+            $('header .line .cre').animate({'left':nl,'width':nw});     
+        })
+    })
+</script>
