@@ -1,196 +1,175 @@
-.list{
+
+.wx-contact{
 	width: 1200px;
-	margin: auto;
-	position: relative;
-	margin-top: 50px;
+	margin:auto;
+}
+.wx-contact .wrap{
+	width: 1000px;
+	margin:auto;
+}
+.wx-contact .wrap form{
+	width:100%;
+}
+.wx-contact .wrap form{
+	width:100%;
+}
+.wx-contact .wrap form .inbox{
+	width:100%;
+	height: 46px;
+	margin-bottom: 25px;
+}
+.wx-contact .wrap form .inbox .left{
+	width:48%;
+	height: 100%;
+	float:left;
+}
+.wx-contact .wrap form .inbox .left input{
+	width:100%;
+	height: 100%;
+	float:left;
+	border: 2px solid #FFC9E3;
+	outline: 0;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.wx-contact .wrap form .inbox .right{
+	width:48%;
+	height: 46px;
+	float: right;
+}
+.wx-contact .wrap form .inbox .right input{
+	width:100%;
+	height: 100%;
+	float: right;
+	border: 2px solid #FFC9E3;
+	outline: 0;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.wx-contact .wrap form .text{
+	width:100%;
+	height: 100%;
+	display: block;
+	border: 2px solid #FFC9E3;
+	outline: 0;
+	margin-bottom: 25px;
+	padding-left: 20px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.wx-contact .wrap form input[type="submit"]{
+	width:100%;
+	height: 100%;
+	display: block;
+	border: 2px solid #FFC9E3;
+	outline: 0;
 	margin-bottom: 80px;
-	overflow: hidden;
+	padding:20px 0;
+	background-color: #fff;
+	box-sizing: border-box;
 }
-.list span{
-	font-size: 12px;
-	color: #000;
-}
-.list .ind{
-	font-size: 14px;
-}
-.list .iconfont{
-	font-size: 12px;
-	font-weight: bold;
-}
-.list .us{
-	font-size: 14px;
-	font-weight: bold;
-	color: #ff3795;
-}
-.list .mesg{
-	width: 40px;
-	height: 2px;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	overflow: hidden;
-	margin-top: 2px;
-}
-.list .mesg .xian{
-	width: 80%;
+.wx-contact .wrap form .word{
+	width:100%;
 	height: 100%;
-	background: #000;
-	float: left;
+	display: block;
+	text-align: center;
+	margin-bottom: 40px;	
 }
-.list .mesg .dian{
-	width: 10%;
+.wx-contact .wrap .photo{
+	width:100%;
 	height: 100%;
-	background: #000;
-	border-radius: 50%;
-	float: right;
+	text-align: center;
+	position: relative;
 }
-.list .mesg.one{
-	position: absolute;
-	bottom: 0px;
-	left: 100px;
-	overflow: hidden;
+.wx-contact .wrap .photo img{
+	width:100%;
+	height: 100%;
 }
-.content{
-	width: 1200px;
-	margin: auto;
-	overflow: hidden;
-	padding: 0px 80px;
-	box-sizing:border-box;
+.wx-contact .wrap .photo .mask{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(0, 0, 0, 0.3);
+	width:100%;
+	height: 100%;
 }
-.content .left{
-	width: 27%;
-	overflow: hidden;
-	float: left;
+.wx-contact .wrap .photo .message{
+	position:absolute;
+	right:310px;
+	bottom: 250px;
+	background-color:#FAA727;
+	width:200px;
+	height: 40px;
+	border-radius: 20px;
+	text-align:center;
+	line-height: 40px;
+	color:#fff;
 }
-.content .left p{
+.wx-contact .wrap .title{	
+	width:100%;
+	color:#FF3795;
 	font-size: 20px;
-	color: #e70f77;
-	font-weight: 700;
-	line-height: 30px;
+	margin-top: 30px;
+	font-family:"微软雅黑";
+	margin-bottom:80px;
 }
-.content .left .dian{
-	width: 5px;
-	height: 5px;
-	border-radius: 50%;
-	background: #e70f77;
-	float: left;
-	margin-left: 10px;
-	margin-top: 6px;
-}
-.content .left .dian.diantwo{
-	margin-left: 5px;
-}
-.content .left span{
-	display: block;
-	font-size: 12px;
-	color: #62c3bf;
-	padding-left: 5px;
-	float: left;
-}
-.content .right{
-	width: 73%;
-	height: 76px;
-	float: left;
-	position: relative;
-}
-.content .right p{
-	width: 100%;
-	height: 2px;
-	background: #e70f77;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-	margin: auto;
-}
-.contact{
-	width:1200px;
-	margin: auto;
+.wx-contact .wrap .title .words{
 	overflow: hidden;
-	padding: 0px 95px;
-	box-sizing:border-box;
-}
-.contact p{
-	text-align: center;
+	margin-top:5px;
 	font-size: 18px;
-	color: #f7f7f7;
-	margin: 60px 0px;
+	font-family:"微软雅黑";
 }
-.contact span{
-	display: block;
-	width: 100%;
-	text-align: center;
+.wx-contact .wrap .title .words .line{	
+	width:75%;
+	height:2px;
+	background-color:#FF3795;
+	margin:5px 0;
+	float:left;
+}
+.wx-contact .wrap .title .words span{	
+	width:25%;
+	display:block;
+	float:left;
+}
+.wx-contact .wrap .title .little .dot{	
+	width: 6px;
+    height: 6px;
+    margin-top: 9px;
+    background: #EB328B;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+}
+.wx-contact .wrap .title .little .wenzi{	
 	font-size: 12px;
-	margin-bottom: 35px;
-}
-.contact form{
-	width: 100%;
-	position: relative;
-	font-size: 0px;
-}
-.contact #one{
-	width: 48%;
-	height: 50px;
-	outline: none;
-	border: 3px solid #ffc9e3;
-	float: left;
-}
-.contact #two{
-	width: 48%;
-	height: 50px;
-	outline: none;
-	border: 3px solid #ffc9e3;
-	float: right;
-}
-.contact #three{
-	width: 100%;
-	height: 150px;
-	outline: none;
-	border: 3px solid #ffc9e3;
-	font-size: 12px;
-	font-weight: 500;
-	padding: 10px 20px;
-	box-sizing:border-box;
-	margin-top: 25px;
-	position: relative;
-}
-.contact #four{
-	width: 100%;
-	height: 50px;
-	outline: none;
-	border: 3px solid #ffc9e3;
-	margin-top: 25px;
-}
-.contact .four{
-	width: 100px;
-	height: 20px;
-	font-size: 12px;
-	font-weight: 500;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 270px;
-	margin: auto;
-}
-.contact input{
-	font-size: 12px;
-	font-weight: 500;
-	padding: 10px 20px;
-	box-sizing:border-box;
-}
-.contact #three .con{
-	width: 100px;
-	height: 20px;
-	font-size: 12px;
-	font-weight: 500;	
-}
-.contact .imgBox{
-	width: 100%;
-	margin-top: 80px;
-	font-size: 0px;
-}
-.contact .imgBox img{
-	width: 100%;
+    color: #6CC7C3;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-top: 2px;
 }
 
+.wx-contact .nav{
+	width:100%;
+	margin-top:40px;
+	margin-bottom:50px;
+	font-size:0;
+}
+.wx-contact .nav a{
+	font-size:12px;
+	color:#999;
+}
+.wx-contact .nav .word{
+	font-size:13px;
+	border-bottom:2px solid #000;
+	margin-right: 5px;
+}
+.wx-contact .nav span{
+	font-size:13px;
+	margin:0 10px;
+}
+.wx-contact .nav .con{
+	color:#FF3795;
+	font-weight: bold;
+	font-size: 14px;
+	font-family:"微软雅黑";
+}
